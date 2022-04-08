@@ -17,7 +17,7 @@
 const people = [
   { name: "ford prefect", occupation: "a hitchhiker" },
   { name: "zaphod beeblebrox", occupation: "president of the galaxy" },
-  { name: "arthur dent", occupation: "a radio employee" },
+  { name: "arthur dent", occupation: "a radio employee" },gi
 ];
 
 // Expected output: ["Ford Prefect is a hitchhiker.", "Zaphod Beeblebrox is president of the galaxy.", "Arthur Dent is a radio employee."]
@@ -31,6 +31,11 @@ describe("namer", () => {
     ]);
   });
 });
+
+//Good Fail
+// ● namer › take in an array of objects and returns an array with a sentence about each person with their name capitalized.
+//   ReferenceError: namer is not defined
+
 
 // b) Create the function that makes the test pass.
 
@@ -76,6 +81,11 @@ describe("remainder", () => {
   });
 });
 
+// Good Fail
+//   ● remainder › take in a mixed data array and returns an array of only the REMAINDERS of the numbers when divided by 3.
+// ReferenceError: remainder is not defined
+
+
 // b) Create the function that makes the test pass.
 
 // Pseudocode:
@@ -106,6 +116,11 @@ describe("adder", () => {
     expect(adder(cubeAndSum2)).toEqual(1125);
   });
 });
+
+// Good Fail
+//   ● adder › take in an array of objects and returns an array with a sentence about each person with their name capitalized.
+// ReferenceError: adder is not defined
+
 
 // b) Create the function that makes the test pass.
 
